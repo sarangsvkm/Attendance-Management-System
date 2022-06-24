@@ -31,7 +31,7 @@ class StartPage(tk.Frame):
     def __init__(self, parent, controller):
         tk.Frame.__init__(self, parent)
 
-        label1 = tk.Label(self, text="Attendance Management System Project in Python", font=("Times", 26))
+        label1 = tk.Label(self, text="Attendance Management System ", font=("Times", 26))
 
         bt1 = tk.Button(self, text="Add new record", font=("Times", 16), height=2, width=17, bg="blue",
                         command=lambda: controller.show_frame(NewRecord))
